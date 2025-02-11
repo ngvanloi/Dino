@@ -2,7 +2,7 @@ class Dino {
     constructor() {
         this.r = 100;
         this.x = this.r
-        this.y = height - this.r;
+        this.y = 0;
         this.vy = 0;
         this.gravity = 2;
         this.jumpCount = 0;

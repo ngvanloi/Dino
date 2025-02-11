@@ -79,7 +79,7 @@ function draw() {
 }
 
 function backgroundScroll() {
-    image(bImg, bgX, 0, width, height); 
+    image(bImg, bgX, 0, width, height);
     image(bImg, bgX + width, 0, width, height);
 
     bgX -= bgSpeed;
@@ -90,7 +90,7 @@ function backgroundScroll() {
 }
 
 function displayRestartMessage() {
-    fill(255);
+    fill(0 );
     textSize(48);
     textAlign(CENTER, CENTER);
     text("Game Over! Press Enter to Restart", width / 2, height / 2);
